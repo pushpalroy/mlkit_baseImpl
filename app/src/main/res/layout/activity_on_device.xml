@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activities.OnDeviceActivity">
+
+    <Button
+        android:id="@+id/button_text_recognition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="textDetection"
+        android:padding="20dp"
+        android:text="TEXT DETECTION" />
+
+    <Button
+        android:id="@+id/button_face_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="faceDetection"
+        android:padding="20dp"
+        android:text="FACE DETECTION" />
+
+    <Button
+        android:id="@+id/button_image_label_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="imageLabelDetection"
+        android:padding="20dp"
+        android:text="Image Label Detection" />
+
+    <Button
+        android:id="@+id/button_classification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="classification"
+        android:padding="20dp"
+        android:text="Classification" />
+
+
+    <Button
+        android:id="@+id/button_bar_code_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="barCodeDetection"
+        android:padding="20dp"
+        android:text="Bar code detection" />
+
+</LinearLayout>
